@@ -1,29 +1,45 @@
-# Automated Water Bottling System
-
-## Overview
-This project presents the simulation of an automated water bottling production line using Factory I/O and Control I/O.
+Automated Water Bottling System
 
 
-## Technologies Used
-- Factory I/O – Industrial process simulation
-- Control I/O – Graphical control logic
-- Industrial Automation
-- Control Systems
+#Overview
 
-## Project Files
-- `water_bottling_system.factoryio` – Factory I/O simulation scene
-- `bottling_control.controlio` – Control I/O diagram
+This project presents the design and simulation of an automated water bottling production system using Factory I/O and Control I/O.
 
-## Project Objectives
-- Explore industrial automation through simulation.
-- Develop and organize control logic for a virtual production system.
-- Study the interaction between control logic and simulated industrial equipment.
+The project combines a virtual industrial environment with graphical control logic to explore production-line automation, sensor-based decision-making, material handling, and process control.
 
-## How to Open the Project
-1. Open Factory I/O and load `water_bottling_system.factoryio`.
-2. Open the control diagram using the compatible Control I/O environment.
-3. Configure the connection between the simulation and control environment as required.
-4. Run the simulation to examine the system's behavior.
+The simulation includes conveyor systems, a tank, sensors, and a two-axis pick-and-place mechanism.
 
-## Project Status
-Academic project – simulation and control files provided.
+#Technologies Used
+Factory I/O: 3D industrial automation simulation
+Control I/O: Graphical control logic and function blocks
+Industrial Automation: Automated production processes
+Control Systems: Logic, timers, counters, and PID control
+Sensors and Actuators: Detection and control of simulated equipment
+System Components
+
+#The project includes the following components and control elements:
+Conveyor belts for material transportation
+Start, Stop, and Reset controls
+Diffuse sensors for object detection
+Two-axis pick-and-place mechanism
+Tank with level and flow measurement
+Fill and discharge valve control
+Indicator lights for system status
+Timers, counters, and logical function blocks
+
+Control Logic
+The Control I/O diagram contains interconnected function blocks that define the system's control logic.
+
+#The implementation includes:
+Start/Stop control and internal memory
+Logical operations and signal processing
+Timers and counters
+Sensor-based conditions
+Pick-and-place movement commands
+Tank valve and measurement signals
+PID control block
+
+These elements are used to model the coordination of the simulated industrial equipment.
+
+
+A demonstration video of the Factory I/O simulation is available below.
